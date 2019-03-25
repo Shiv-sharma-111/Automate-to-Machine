@@ -221,7 +221,7 @@ public class RobotTesting {
         rb.delay(500);
         rb.keyPress(KeyEvent.VK_RIGHT);
         rb.keyPress(KeyEvent.VK_ENTER);
-        rb.delay(5000);
+        rb.delay(1000);
         
         
         
@@ -249,7 +249,8 @@ public class RobotTesting {
         rb.keyRelease(KeyEvent.VK_DOWN);
         rb.keyPress(KeyEvent.VK_DOWN);
         rb.keyRelease(KeyEvent.VK_DOWN);
-       
+        rb.keyPress(KeyEvent.VK_ENTER);
+        rb.keyRelease(KeyEvent.VK_ENTER);
         
         
         
